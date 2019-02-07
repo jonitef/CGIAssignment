@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sorting"
+        android:icon="@drawable/baseline_tune_24"
+        android:title="Sort by:"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group
+                android:id="@+id/mainGroup"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/newest"
+                    android:title="Newest"
+                    android:checked="true"/>
+                <item
+                    android:id="@+id/species"
+                    android:title="Species"/>
+            </group>
+            <item
+                android:id="@+id/subGroup"
+                android:title="Rarity">
+                <menu>
+                    <group
+                        android:id="@+id/rarity"
+                        android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/all"
+                            android:title="All"
+                            android:checked="true"/>
+                        <item
+                            android:id="@+id/common"
+                            android:title="Common"/>
+                        <item
+                            android:id="@+id/rare"
+                            android:title="Rare"/>
+                        <item
+                            android:id="@+id/extRare"
+                            android:title="Extremely rare"/>
+                    </group>
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="add_image">Add image</string>
+    <string name="species">Species</string>
+    <string name="notes">Notes</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="observation_img">Observation image</string>
+
+    <string-array name="rarity_list">
+        <item>Common</item>
+        <item>Rare</item>
+        <item>Extremely rare</item>
+    </string-array>
+</resources>
